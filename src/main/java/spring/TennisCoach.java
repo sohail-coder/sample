@@ -6,11 +6,17 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class TennisCoach implements Coach{
-    @Autowired
+
     private FortuneService fortuneService;
-    TennisCoach(FortuneService fortuneService){
-        this.fortuneService=fortuneService;
+//    @Autowired
+//    TennisCoach(FortuneService fortuneService){
+//        this.fortuneService=fortuneService;
+//    }
+    @Autowired
+    public void setFortuneService(FortuneService fortuneService) {
+        this.fortuneService = fortuneService;
     }
+
     @Override
     public String getDialyWorkout() {
         return "Run for 2km";
