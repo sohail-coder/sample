@@ -1,0 +1,2 @@
+spring.HappyFortune=org.springframework.stereotype.Component
+spring.TennisCoach=org.springframework.stereotype.Component
