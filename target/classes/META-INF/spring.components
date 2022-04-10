@@ -1,4 +1,5 @@
 spring.DatabaseFortunr=org.springframework.stereotype.Component
 spring.HappyFortune=org.springframework.stereotype.Component
 spring.RestFortune=org.springframework.stereotype.Component
+spring.SpringConfig=org.springframework.stereotype.Component
 spring.TennisCoach=org.springframework.stereotype.Component
